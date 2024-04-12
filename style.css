@@ -1,0 +1,265 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+.body{
+    font-family: montserrat;
+}
+.my_menu{
+    width: 100%;
+    height: 80px;
+    background-color: #0a4274;
+}
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 80px; 
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+.my_menu ul{
+    float: right;
+    margin-right: 20px;
+} 
+.my_menu ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.my_menu ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 5px 11px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background: #002746;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(10, 56, 85);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    lable.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .my_menu ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 852px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(34, 153, 204, 0.933);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .my_menu ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .my_menu ul li a{
+        font-size: 20px;
+    }
+    a:hover ,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+section{
+    background: url(C:\Users\ABCD\Downloads\INNOVANZA.jpeg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+
+#FOOTER
+.section2{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.section2 h1{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: RED;
+    border-bottom: 2px solid red;
+}
+.div_section2{
+    width: 30%;
+    height: 345px;
+    margin: 20px;
+    float: left;
+}
+.div_section2 img{
+    width: 100%;
+}
+/*banner*/
+#banner{
+    width: 100%;
+}
+#banner img{
+    margin-top: opx;
+    width: 100%;
+    height: 20%;
+}
+
+/*why choose*/
+#Why_choose{
+    margin-top: opx;
+    padding: 0%;
+    width: 100%;
+    height: 7%;
+    text-align: center;
+    background-color: rgb(119, 147, 239);
+}
+#Why_choose h1{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: rgb(3, 9, 65);
+    border-bottom: 2px solid rgb(20, 28, 116);
+    border-bottom-width: 2px;
+}
+
+#Why_choose P{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    border-bottom-width: 2px;
+}
+
+
+/*sec 2*/
+
+.section2{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.section2 h1{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: rgb(35, 32, 123);
+    border-bottom: 2px solid red;
+}
+.section2 h2{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: rgb(35, 32, 123);
+    border-bottom: 2px solid red;
+}
+.div_section2{
+    width: 30%;
+    height: 345px;
+    margin: 20px;
+    float: left;
+}
+.div_section2 img{
+    width: 100%;
+}
+/*main*/
+
+main {
+    padding: 20px;
+}
+
+/*footer*/
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 2px solid rgb(55, 52, 52);
+    margin-top: 50px;
+}
+.footer_div{
+    width: 20%;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+.footer_div h1{
+    color: rgb(17, 85, 125);
+}
+.footer_div p{
+    margin-top: 30px;
+    color: white;
+}
+.footer_div button{
+    background-color: rgb(0, 110, 255);
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    color: white;
+}
+.footer_div ul{
+    margin-top: 30px;
+}
+.footer_div ul li{
+    list-style: none;
+}
+
+.footer_div ul li a{
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social_div{
+    margin-top: 30px;
+    color: white;
+    word-spacing: 18px;
+}
+.under_footer{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    background-color: white;
+}
+.footer1{
+    float: left;
+    width: 50%;
+}
+.footer1 p{
+    color: rgb(8, 8, 8);
+}
+.footer2{
+    float: left;
+}
+.footer2 p{
+    color: rgb(15, 15, 15);
+}
